@@ -155,7 +155,7 @@ class gravatar {
     		<input type="radio" name="gravatar_setting_default" <?php if($gravatar_setting_default == "0") echo "checked";?> value="0"/>gavatar官方默认
     		<input type="radio" name="gravatar_setting_default" <?php if($gravatar_setting_default == "1") echo "checked";?> value="1"/>ruby-china镜像站
     		<input type="radio" name="gravatar_setting_default" <?php if($gravatar_setting_default == "2") echo "checked";?> value="2"/>duoshuo多说镜像站
-    		<input type="radio" name="gravatar_setting_default" <?php if($gravatar_setting_default == "3") echo "checked";?> value="2"/><a href="//css.net" target="_blank">css.net</a>镜像站
+    		<input type="radio" name="gravatar_setting_default" <?php if($gravatar_setting_default == "3") echo "checked";?> value="3"/><a href="//css.net" target="_blank">css.net</a>镜像站
     		</p>
     		<h3><label>本地头像缓存</label></h3>
     		<p>本地缓存路径：<input type="text" style="width:400px;" name="gravatar_setting_localurl" value="<?=$gravatar_setting_localurl ?>"/><br/>
